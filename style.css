@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+body { 
+
+font-family: 'Poppins', sans-serif; 
+
+margin: 20px; 
+
+padding: 0; 
+
+}
+
+h1 {
+
+    color: #FFD700; /* Amarelo */
+
+    text-shadow: 4px 4px #000000; /* Sombra preta */
+
+    font-size: 5em; /* Tamanho da fonte maior */
+
+    text-align: center; /* Centralizar o texto */
+
+    margin-bottom: 20px; /* Espaço abaixo do título */
+
+}
+
+.container { 
+
+width: 80%; 
+
+margin: auto; 
+
+}
+
+.section { 
+
+padding: 20px; 
+
+margin: 20px 0; 
+
+border: 1px solid #ddd; 
+
+border-radius: 5px;
+
+}
+
+
+
+#numbers {
+    border:5px solid #1E90FF;
+}
+
+#comparisons {
+    border:5px solid #FFAA00;
+}
+
+#addition {
+    border:5px solid #C41E3A;
+}
+
+
+#subtraction {
+    border:5px solid black;
+
+}
+
+#multiplication {
+    border:5px solid #E6A2B1;
+}
+
+#division {
+    border:5px solid #D3D3D3;
+}
+
+
+
+
+
+
+h2 { 
+
+color:green;
+
+margin-top: 0;
+
+}
+
+.nav { 
+
+margin-bottom: 20px; 
+
+}
+
+.nav a { 
+
+margin-right: 15px; 
+
+text-decoration: none; 
+
+color: #007BFF; }
+
+        
+
+        
+
+.nav a:hover { 
+
+text-decoration: underline; 
+
+}
+
+        
+
+        
+
+.feedback { 
+
+margin-top: 10px; 
+
+}
+
+        
+
+    
+
+    
+
+.question {
+
+font-size: 18px;
+
+margin-bottom: 10px;
+
+}
+
+    
+
+    
+
+.options {
+
+margin-bottom: 10px;
+
+}
+
+    
+
+.feedback {
+
+color: red;
+
+}
+
+  
+
+  
+
+button {
+
+            background: linear-gradient(145deg, #ffcc00, #ffaa00); /* Gradiente amarelo */
+
+            border: 2px solid #ffcc00;
+
+            font-family: 'Poppins', sans-serif; 
+
+            border-radius: 12px;
+
+            color: #fff;
+
+            font-size: 15px;
+
+            padding: 05px 10px;
+
+            text-transform: uppercase;
+
+            cursor: pointer;
+
+            transition: background 0.3s, transform 0.2s;
+
+            outline: none; /* Remove o contorno padrão do botão */
+
+        }
+
+button:hover {
+
+            background: #ffaa00;
+
+            transform: scale(1.05);
+
+        }
+
+button:active {
+
+            background: #ffcc00;
+
+            box-shadow: inset 2px 2px 4px #ff9900, inset -2px -2px 4px #ffcc00;
+
+        }

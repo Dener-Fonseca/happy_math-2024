@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Happy Math </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Happy Math</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="script.js"></script>
+     
+</head>
+
+<body>
+    
+    <header class="container">
+        
+        <h1>Happy Math</h1>
+        
+        <img src = "https://origins.sonicthehedgehog.com/image/characters_1280.webp" alt = "sonic logo" width = "300" height = "300">
+        
+        
+        
+        <p>Bem-vindo ao Happy Math! Uma plataforma de ensino de matemática que visa auxiliar o aprendizado de crianças que estão aprendendo pela primeira vez ou têm dificuldades. Aqui, você encontrará atividades interativas para praticar e aprender sobre números, operações e comparações de forma divertida e envolvente.</p>
+
+        <div class="nav">
+            
+            <a href="#numbers" style ="color:#1E90FF">Números</a>
+            
+            <a href="#comparisons" style = "color:#FFAA00">Comparações</a>
+            
+            <a href="#addition" style = "color:#C41E3A">Adição</a>
+            
+            <a href="#subtraction" style ="color:black">Subtração</a>
+            
+            <a href="#multiplication" style = "color:#E6A2B1">Multiplicação</a>
+            
+            <a href="#division" style = "color:#D3D3D3">Divisão</a>
+       
+        </div>
+        
+    </header>
+  
+  <div class="section" id="numbers">
+
+            
+
+            <h2 style ="color:#1E90FF;">Números</h2>
+
+            
+
+            
+
+            
+
+            <img src="https://sonicworldfangame.com/wp-content/uploads/2021/06/sonic_render_1.png?w=309&h=309" alt="Imagem do Sonic" width="309" height="309">
+
+            
+
+            <p>Os números naturais são como nossos amigos que nos ajudam a contar as coisas ao nosso redor! Imagine que você tem um monte de brinquedos, e você quer saber quantos são. Para isso, usamos os números naturais! Vamos começar com o <b>número 1</b>. Quando você tem um brinquedo na sua mão, isso é o número 1. Se você pegar mais um brinquedo, agora você tem 2 brinquedos! E aí, o <b>número 2</b> aparece para ajudar. Já quando não temos nenhum, usamos o <b>número 0</b>.</p>
+
+            <p>Se vier um terceiro brinquedo, o <b>número 3</b> chega para contar. E assim por diante! Os números naturais vão subindo, como se fossem uma escada mágica que nunca termina. Eles nos ajudam a contar tudo: quantos dedos temos, quantas maçãs estão na cesta, quantos amigos estão brincando no parque.</p>
+
+            <p>O legal dos números naturais é que eles sempre começam do 0 e vão subindo sem parar: 0, 1, 2, 3, 4, 5... E o mais incrível? Eles são infinitos, o que significa que sempre existe um número maior para descobrir!</p>
+
+            <p>Então, da próxima vez que você for brincar ou contar algo, lembre-se dos seus amigos números naturais, que estão sempre prontos para te ajudar a contar tudo o que você quiser!</p>
+
+            <p>Os Números, então, são símbolos usados para representar quantidades e medir coisas. Eles são a base da matemática e têm diferentes categorias, incluindo:</p>
+
+            
+
+            <p>Os números naturais são:</p>
+
+                
+
+            <p style="font-size:90px; text-align: center; color:green;text-shadow: 
+
+                4px 4px 0px black, /* Horizontal, Vertical, Borrão, Cor */
+
+                -4px 4px 0px black,
+
+                4px -4px 0px black,
+
+                -4px -4px 0px black; /* Contorno completo em 4 direções */" > 0  1  2  3  4  5  6  7  8  9 </p>
+
+            
+
+            <p>Agora, vamos praticar com alguns exercícios de números naturais:</p>
+
+        
+
+        <h2>Exercícios de Números Naturais</h2>
+
+  <!-- Pergunta 1 -->
+
+  
+
+  <div class="question">
+
+    1. Qual é o próximo número depois de 4?
+
+  </div>
+
+  
+
+  <div class="options">
+
+    
+
+    <input type="radio" id="q1a" name="q1" value="5">
+
+    <label for="q1a">A. 5</label><br>
+
+    <input type="radio" id="q1b" name="q1" value="6">
+
+    <label for="q1b">B. 6</label><br>
+
+    <input type="radio" id="q1c" name="q1" value="7">
+
+    <label for="q1c">C. 7</label><br>
+
+    <input type="radio" id="q1d" name="q1" value="8">
+
+    <label for="q1d">D. 8</label><br>
+
+    
+
+    <button onclick="checkAnswer('q1', 5)">Verificar</button>
+
+    
+
+    <p id="q1-feedback" class="feedback"></p>
+
+  
+
+  </div>
+
+  <!-- Pergunta 2 -->
+
+  <div class="question">
+
+    2. Qual número vem antes do 7?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q2a" name="q2" value="6">
+
+    <label for="q2a">A. 6</label><br>
+
+    <input type="radio" id="q2b" name="q2" value="5">
+
+    <label for="q2b">B. 5</label><br>
+
+    <input type="radio" id="q2c" name="q2" value="4">
+
+    <label for="q2c">C. 4</label><br>
+
+    <input type="radio" id="q2d" name="q2" value="8">
+
+    <label for="q2d">D. 8</label><br>
+
+    <button onclick="checkAnswer('q2', 6)">Verificar</button>
+
+    <p id="q2-feedback" class="feedback"></p>
+
+  </div>
+
+  <!-- Pergunta 3 -->
+
+  <div class="question">
+
+    3. Qual é o maior número: 3, 5 ou 2?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q3a" name="q3" value="3">
+
+    <label for="q3a">A. 3</label><br>
+
+    <input type="radio" id="q3b" name="q3" value="5">
+
+    <label for="q3b">B. 5</label><br>
+
+    <input type="radio" id="q3c" name="q3" value="2">
+
+    <label for="q3c">C. 2</label><br>
+
+    <input type="radio" id="q3d" name="q3" value="4">
+
+    <label for="q3d">D. 4</label><br>
+
+    <button onclick="checkAnswer('q3', 5)">Verificar</button>
+
+    <p id="q3-feedback" class="feedback"></p>
+
+  </div>
+
+  <!-- Pergunta 4 -->
+
+  <div class="question">
+
+    4. Qual é o menor número: 8, 4 ou 6?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q4a" name="q4" value="8">
+
+    <label for="q4a">A. 8</label><br>
+
+    <input type="radio" id="q4b" name="q4" value="4">
+
+    <label for="q4b">B. 4</label><br>
+
+    <input type="radio" id="q4c" name="q4" value="6">
+
+    <label for="q4c">C. 6</label><br>
+
+    <input type="radio" id="q4d" name="q4" value="5">
+
+    <label for="q4d">D. 5</label><br>
+
+    <button onclick="checkAnswer('q4', 4)">Verificar</button>
+
+    <p id="q4-feedback" class="feedback"></p>
+
+  </div>
+
+  <!-- Pergunta 5 -->
+
+  <div class="question">
+
+    5. Qual é o número que vem entre 2 e 4?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q5a" name="q5" value="2">
+
+    <label for="q5a">A. 2</label><br>
+
+    <input type="radio" id="q5b" name="q5" value="3">
+
+    <label for="q5b">B. 3</label><br>
+
+    <input type="radio" id="q5c" name="q5" value="4">
+
+    <label for="q5c">C. 4</label><br>
+
+    <input type="radio" id="q5d" name="q5" value="5">
+
+    <label for="q5d">D. 5</label><br>
+
+    <button onclick="checkAnswer('q5', 3)">Verificar</button>
+
+    <p id="q5-feedback" class="feedback"></p>
+
+  </div>
+
+  <!-- Pergunta 6 -->
+
+  <div class="question">
+
+    6. Qual é o número que vem entre 1 e 3?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q6a" name="q6" value="1">
+
+    <label for="q6a">A. 1</label><br>
+
+    <input type="radio" id="q6b" name="q6" value="2">
+
+    <label for="q6b">B. 2</label><br>
+
+    <input type="radio" id="q6c" name="q6" value="3">
+
+    <label for="q6c">C. 3</label><br>
+
+    <input type="radio" id="q6d" name="q6" value="4">
+
+    <label for="q6d">D. 4</label><br>
+
+    <button onclick="checkAnswer('q6', 2)">Verificar</button>
+
+    <p id="q6-feedback" class="feedback"></p>
+
+  </div>
+
+  <!-- Pergunta 7 -->
+
+  <div class="question">
+
+    7. Qual é o próximo número depois de 9?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q7a" name="q7" value="8">
+
+    <label for="q7a">A. 8</label><br>
+
+    <input type="radio" id="q7b" name="q7" value="9">
+
+    <label for="q7b">B. 9</label><br>
+
+    <input type="radio" id="q7c" name="q7" value="10">
+
+    <label for="q7c">C. 10</label><br>
+
+    <input type="radio" id="q7d" name="q7" value="11">
+
+    <label for="q7d">D. 11</label><br>
+
+    <button onclick="checkAnswer('q7', 10)">Verificar</button>
+
+    <p id="q7-feedback" class="feedback"></p>
+
+  </div>
+
+  <!-- Pergunta 8 -->
+
+  <div class="question">
+
+    8. Qual número vem antes do 5?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q8a" name="q8" value="4">
+
+    <label for="q8a">A. 4</label><br>
+
+    <input type="radio" id="q8b" name="q8" value="5">
+
+    <label for="q8b">B. 5</label><br>
+
+    <input type="radio" id="q8c" name="q8" value="6">
+
+    <label for="q8c">C. 6</label><br>
+
+    <input type="radio" id="q8d" name="q8" value="7">
+
+    <label for="q8d">D. 7</label><br>
+
+    <button onclick="checkAnswer('q8', 4)">Verificar</button>
+
+    <p id="q8-feedback" class="feedback"></p>
+
+  </div>
+
+  <!-- Pergunta 9 -->
+
+  <div class="question">
+
+    9. Qual é o maior número: 2, 7 ou 5?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q9a" name="q9" value="2">
+
+    <label for="q9a">A. 2</label><br>
+
+    <input type="radio" id="q9b" name="q9" value="5">
+
+    <label for="q9b">B. 5</label><br>
+
+    <input type="radio" id="q9c" name="q9" value="7">
+
+    <label for="q9c">C. 7</label><br>
+
+    <input type="radio" id="q9d" name="q9" value="6">
+
+    <label for="q9d">D. 6</label><br>
+
+    <button onclick="checkAnswer('q9', 7)">Verificar</button>
+
+    <p id="q9-feedback" class="feedback"></p>
+
+  </div>
+
+  <!-- Pergunta 10 -->
+
+  <div class="question">
+
+    10. Qual é o menor número: 9, 3 ou 8?
+
+  </div>
+
+  <div class="options">
+
+    <input type="radio" id="q10a" name="q10" value="9">
+
+    <label for="q10a">A. 9</label><br>
+
+    <input type="radio" id="q10b" name="q10" value="3">
+
+    <label for="q10b">B. 3</label><br>
+
+    <input type="radio" id="q10c" name="q10" value="8">
+
+    <label for="q10c">C. 8</label><br>
+
+    <input type="radio" id="q10d" name="q10" value="7">
+
+    <label for="q10d">D. 7</label><br>
+
+    <button onclick="checkAnswer('q10', 3)">Verificar</button>
+
+    <p id="q10-feedback" class="feedback"></p>
+
+  </div>
+
+  
+
+  </div>
+  
+  
+  
+  <div class="section" id="comparisons">
+        
+        <h2 style = "color:#FFAA00">Comparações</h2>
+        
+        
+        
+        <img src = "https://sonicworldfangame.com/wp-content/uploads/2014/08/2016_legacy_tails_render_by_nibroc_rock-dafeaho.png?w=600" alt = "Imagem do tails" width = "309" height ="309">
+        
+        
+        
+        
+        <p>Comparar números usando operadores como maior que, menor que e igual. Vamos praticar:</p>
+        <p>Comparadores são palavras mágicas que nos ajudam a descobrir qual coisa é <b>maior</b>, <b>menor</b> ou <b>igual</b> a outra. Imagine que você tem duas maçãs na sua frente. Como saber qual é a maior? Ou se elas são do mesmo tamanho? É aí que os comparadores entram em ação!</p>
+        <p>Vamos conhecer esses amigos:</p>
+        <ol>
+            <li><b>Maior que:</b> Esse comparador é usado quando algo é maior do que o outro. Por exemplo, se você tem uma maçã e uma melancia, você pode dizer que a melancia é <b>maior que</b> a maçã.</li>
+            <p>Este é o simbolo de maior:</p>
+            <p style="font-size:100px; text-align: center;color:blue; text-shadow: 
+                4px 4px 0px black, /* Horizontal, Vertical, Borrão, Cor */
+                -4px 4px 0px black,
+                4px -4px 0px black,
+                -4px -4px 0px black; /* Contorno completo em 4 direções */">></p>
+
+            <li><b>Menor que:</b> Agora, se uma coisa é menor do que a outra, usamos o comparador <b>menor que</b>. Lembra da maçã e da melancia? A maçã é <b>menor que</b> a melancia.</li>
+            <p>Este é o simbolo da menor:</p>
+            <p style="font-size:100px; text-align: center;color:yellow; text-shadow: 
+                4px 4px 0px black, /* Horizontal, Vertical, Borrão, Cor */
+                -4px 4px 0px black,
+                4px -4px 0px black,
+                -4px -4px 0px black; /* Contorno completo em 4 direções */"><</p>
+
+            <li><b>Igual a:</b> Mas, às vezes, as coisas têm o mesmo tamanho ou a mesma quantidade. Quando isso acontece, dizemos que elas são <b>iguais</b>. Por exemplo, se você e seu amigo têm a mesma quantidade de balas, podemos dizer que a quantidade de balas é <b>igual</b>.</li>
+            <p>Este é o simbolo da igual:</p>
+            <p style="font-size:100px; text-align: center;color:red; text-shadow: 
+                4px 4px 0px black, /* Horizontal, Vertical, Borrão, Cor */
+                -4px 4px 0px black,
+                4px -4px 0px black,
+                -4px -4px 0px black; /* Contorno completo em 4 direções */">=</p>
+        </ol>
+        <p>Com esses comparadores, você pode brincar de descobrir o que é maior, menor ou igual! Pode comparar seus brinquedos, seus lápis de cor, ou até a altura dos seus amigos. É divertido ver como as coisas são diferentes ou parecidas usando esses comparadores mágicos!</p>
+
+    
+    <h2>Exercícios de Comparações Matemáticas</h2>
+   
+    <p>Clique no círculo para escolher a opção desejada e depois clique em "Verificar" para confirmar se você acertou a resposta.</p>
+
+    <!-- Questão 1 -->
+    <div class="question">
+        <p>1. 5 é maior que 3?</p>
+        <input type="radio" name="comparison1" value="Sim">Sim<br>
+        <input type="radio" name="comparison1" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison1', 'Sim')">Verificar</button>
+        <p id="feedback-comparison1" class="feedback"></p>
+    </div>
+
+    <!-- Questão 2 -->
+    <div class="question">
+        <p>2. 7 é menor que 5?</p>
+        <input type="radio" name="comparison2" value="Sim">Sim<br>
+        <input type="radio" name="comparison2" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison2', 'Não')">Verificar</button>
+        <p id="feedback-comparison2" class="feedback"></p>
+    </div>
+
+    <!-- Questão 3 -->
+    <div class="question">
+        <p>3. 10 é igual a 10?</p>
+        <input type="radio" name="comparison3" value="Sim">Sim<br>
+        <input type="radio" name="comparison3" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison3', 'Sim')">Verificar</button>
+        <p id="feedback-comparison3" class="feedback"></p>
+    </div>
+
+    <!-- Questão 4 -->
+    <div class="question">
+        <p>4. 15 é maior que 20?</p>
+        <input type="radio" name="comparison4" value="Sim">Sim<br>
+        <input type="radio" name="comparison4" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison4', 'Não')">Verificar</button>
+        <p id="feedback-comparison4" class="feedback"></p>
+    </div>
+
+    <!-- Questão 5 -->
+    <div class="question">
+        <p>5. 8 é menor que 12?</p>
+        <input type="radio" name="comparison5" value="Sim">Sim<br>
+        <input type="radio" name="comparison5" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison5', 'Sim')">Verificar</button>
+        <p id="feedback-comparison5" class="feedback"></p>
+    </div>
+
+    <!-- Questão 6 -->
+    <div class="question">
+        <p>6. 25 é igual a 30?</p>
+        <input type="radio" name="comparison6" value="Sim">Sim<br>
+        <input type="radio" name="comparison6" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison6', 'Não')">Verificar</button>
+        <p id="feedback-comparison6" class="feedback"></p>
+    </div>
+
+    <!-- Questão 7 -->
+    <div class="question">
+        <p>7. 40 é maior que 35?</p>
+        <input type="radio" name="comparison7" value="Sim">Sim<br>
+        <input type="radio" name="comparison7" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison7', 'Sim')">Verificar</button>
+        <p id="feedback-comparison7" class="feedback"></p>
+    </div>
+
+    <!-- Questão 8 -->
+    <div class="question">
+        <p>8. 50 é menor que 45?</p>
+        <input type="radio" name="comparison8" value="Sim">Sim<br>
+        <input type="radio" name="comparison8" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison8', 'Não')">Verificar</button>
+        <p id="feedback-comparison8" class="feedback"></p>
+    </div>
+
+    <!-- Questão 9 -->
+    <div class="question">
+        <p>9. 60 é igual a 60?</p>
+        <input type="radio" name="comparison9" value="Sim">Sim<br>
+        <input type="radio" name="comparison9" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison9', 'Sim')">Verificar</button>
+        <p id="feedback-comparison9" class="feedback"></p>
+    </div>
+
+    <!-- Questão 10 -->
+    <div class="question">
+        <p>10. 75 é maior que 80?</p>
+        <input type="radio" name="comparison10" value="Sim">Sim<br>
+        <input type="radio" name="comparison10" value="Não">Não<br>
+        <button onclick="checkComparisonsAnswer('comparison10', 'Não')">Verificar</button>
+        <p id="feedback-comparison10" class="feedback"></p>
+    </div>
+    
+    </div>
+  
+  
+  
+  <div class="section" id="addition">
+        
+        <h2 style = "color:#C41E3A">Adição</h2>
+        
+        
+        <img src = "https://sonicworldfangame.com/wp-content/uploads/2014/08/legacy_knuckles_the_echidna_render_by_nibroc_rock-db16m8p.png?w=600" alt = "Imagem do knuckles" width = "309" height ="309">
+        
+        
+        
+        <p>Adição é como fazer mágica com números! Quando a gente faz uma adição, juntamos dois ou mais números para descobrir um número novo e maior. Vamos ver como isso funciona?</p>
+
+        <p>Imagine que você tem 2 balas de um lado e mais 3 balas do outro. Se você juntar todas essas balas, quantas você vai ter? É aí que a adição entra em ação! Quando você junta 2 balas com 3 balas, você descobre que agora tem 5 balas! Isso é adição!</p>
+
+        <p>A gente pode usar o sinal de <b>“+”</b> para mostrar que estamos juntando os números. Por exemplo:</p>
+
+        <p>Este é o simbolo da adição:</p>
+
+        <p style="font-size:100px; text-align: center;color:#C41E3A; text-shadow: 
+                4px 4px 0px black, /* Horizontal, Vertical, Borrão, Cor */
+                -4px 4px 0px black,
+                4px -4px 0px black,
+                -4px -4px 0px black; /* Contorno completo em 4 direções */">+</p>
+
+        <p><b>2 + 3 = 5</b></p>
+
+        <p>Isso quer dizer que juntamos o 2 com o 3 e o resultado foi 5.</p>
+
+        <p>Adição é como um superpoder que nos ajuda a somar as coisas e descobrir quantidades maiores! Pode ser brinquedos, frutas, estrelas no céu, ou qualquer outra coisa que você quiser somar.</p>
+
+        <p>Então, da próxima vez que você quiser saber quantos brinquedos tem se juntar os que estão no quarto com os da sala, lembre-se da adição e veja a mágica dos números acontecendo!</p>
+        
+        <p>Adição é a operação de juntar duas ou mais quantidades. Vamos praticar!</p>
+    
+        <h2>Exercícios de Adição</h2>
+        
+        <p>Clique no círculo para escolher a opção desejada e depois clique em "Verificar" para confirmar se você acertou a resposta.</p>
+
+        <!-- Questão 1 -->
+        <div class="question-addition">
+            <p>1. Quanto é 5 + 3?</p>
+            <input type="radio" name="q1-addition" value="6">6<br>
+            <input type="radio" name="q1-addition" value="7">7<br>
+            <input type="radio" name="q1-addition" value="8">8<br>
+            <input type="radio" name="q1-addition" value="9">9<br>
+            <button onclick="checkAdditionAnswer('q1-addition', '8')">Verificar</button>
+            <p id="feedback-q1-addition" class="feedback-addition"></p>
+        </div>
+
+        <!-- Questão 2 -->
+        <div class="question-addition">
+            <p>2. Quanto é 7 + 2?</p>
+            <input type="radio" name="q2-addition" value="9">9<br>
+            <input type="radio" name="q2-addition" value="8">8<br>
+            <input type="radio" name="q2-addition" value="10">10<br>
+            <input type="radio" name="q2-addition" value="11">11<br>
+            <button onclick="checkAdditionAnswer('q2-addition', '9')">Verificar</button>
+            <p id="feedback-q2-addition" class="feedback-addition"></p>
+        </div>
+
+        <!-- Questão 3 -->
+        <div class="question-addition">
+            <p>3. Quanto é 6 + 4?</p>
+            <input type="radio" name="q3-addition" value="9">9<br>
+            <input type="radio" name="q3-addition" value="10">10<br>
+            <input type="radio" name="q3-addition" value="11">11<br>
+            <input type="radio" name="q3-addition" value="12">12<br>
+            <button onclick="checkAdditionAnswer('q3-addition', '10')">Verificar</button>
+            <p id="feedback-q3-addition" class="feedback-addition"></p>
+        </div>
+
+        <!-- Questão 4 -->
+        <div class="question-addition">
+            <p>4. Quanto é 8 + 5?</p>
+            <input type="radio" name="q4-addition" value="12">12<br>
+            <input type="radio" name="q4-addition" value="13">13<br>
+            <input type="radio" name="q4-addition" value="14">14<br>
+            <input type="radio" name="q4-addition" value="15">15<br>
+            <button onclick="checkAdditionAnswer('q4-addition', '13')">Verificar</button>
+            <p id="feedback-q4-addition" class="feedback-addition"></p>
+        </div>
+
+        <!-- Questão 5 -->
+        <div class="question-addition">
+            <p>5. Quanto é 3 + 9?</p>
+            <input type="radio" name="q5-addition" value="10">10<br>
+            <input type="radio" name="q5-addition" value="11">11<br>
+            <input type="radio" name="q5-addition" value="12">12<br>
+            <input type="radio" name="q5-addition" value="13">13<br>
+            <button onclick="checkAdditionAnswer('q5-addition', '12')">Verificar</button>
+            <p id="feedback-q5-addition" class="feedback-addition"></p>
+        </div>
+
+        <!-- Questão 6 -->
+        <div class="question-addition">
+            <p>6. Quanto é 10 + 4?</p>
+            <input type="radio" name="q6-addition" value="13">13<br>
+            <input type="radio" name="q6-addition" value="14">14<br>
+            <input type="radio" name="q6-addition" value="15">15<br>
+            <input type="radio" name="q6-addition" value="16">16<br>
+            <button onclick="checkAdditionAnswer('q6-addition', '14')">Verificar</button>
+            <p id="feedback-q6-addition" class="feedback-addition"></p>
+        </div>
+
+        <!-- Questão 7 -->
+        <div class="question-addition">
+            <p>7. Quanto é 9 + 7?</p>
+            <input type="radio" name="q7-addition" value="15">15<br>
+            <input type="radio" name="q7-addition" value="16">16<br>
+            <input type="radio" name="q7-addition" value="17">17<br>
+            <input type="radio" name="q7-addition" value="18">18<br>
+            <button onclick="checkAdditionAnswer('q7-addition', '16')">Verificar</button>
+            <p id="feedback-q7-addition" class="feedback-addition"></p>
+        </div>
+
+        <!-- Questão 8 -->
+        <div class="question-addition">
+            <p>8. Quanto é 11 + 3?</p>
+            <input type="radio" name="q8-addition" value="13">13<br>
+            <input type="radio" name="q8-addition" value="14">14<br>
+            <input type="radio" name="q8-addition" value="15">15<br>
+            <input type="radio" name="q8-addition" value="16">16<br>
+            <button onclick="checkAdditionAnswer('q8-addition', '14')">Verificar</button>
+            <p id="feedback-q8-addition" class="feedback-addition"></p>
+        </div>
+
+        <!-- Questão 9 -->
+        <div class="question-addition">
+        <p>9. Quanto é 12 + 6?</p>
+        <input type="radio" name="q9-addition" value="16">16<br>
+        <input type="radio" name="q9-addition" value="17">17<br>
+        <input type="radio" name="q9-addition"" value="18">18<br>
+        <input type="radio" name="q9-addition" value="19">19<br>
+        <button onclick="checkAdditionAnswer('q9-addition', '18')">Verificar</button>
+        <p id="feedback-q9-addition" class="feedback-addition"></p>
+    </div>
+
+    <!-- Questão 10 -->
+    <div class="question-addition">
+        <p>10. Quanto é 15 + 5?</p>
+        <input type="radio" name="q10-addition" value="19">19<br>
+        <input type="radio" name="q10-addition" value="20">20<br>
+        <input type="radio" name="q10-addition" value="21">21<br>
+        <input type="radio" name="q10-addition" value="22">22<br>
+        <button onclick="checkAdditionAnswer('q10-addition', '20')">Verificar</button>
+        <p id="feedback-q10-addition" class="feedback-addition"></p>
+    </div>
+    
+    </div>
+                                                               
+        <div class="section" id="subtraction">
+
+           
+
+            <h2 style = "color:black">Subtração</h2>
+
+            
+
+            
+
+            <img src = "https://sonicworldfangame.com/wp-content/uploads/2021/06/shadow_render_1.png?w=602&h=602" alt = "Imagem do Shadow" width = "309" height ="309">
+
+            
+
+            
+
+            
+
+            <p>A subtração é como um truque de mágica ao contrário: em vez de juntar, você tira um pouco para ver quanto sobra! Vamos brincar de entender como isso funciona?</p>
+
+<p>Imagine que você tem 5 balas na sua mão. Agora, você dá 2 balas para o seu amigo. Quantas balas sobraram com você? É aí que a subtração ajuda! Quando você tira 2 balas das 5 que tinha, sobram 3 balas. Essa é a mágica da subtração!</p>
+
+<p>A gente usa o sinal de <b>“-“</b> para mostrar que estamos tirando alguma coisa. Por exemplo:</p>
+
+<p>Este é o simbolo da subtração:</p>
+
+<p style="font-size:100px; text-align: center; color:black; text-shadow: 
+
+                4px 4px 0px black, /* Horizontal, Vertical, Borrão, Cor */
+
+                -4px 4px 0px black,
+
+                4px -4px 0px black,
+
+                -4px -4px 0px black; /* Contorno completo em 4 direções */" >-</p>
+
+<p><b>5 - 2 = 3</b></p>
+
+<p>Isso quer dizer que começamos com 5 balas, tiramos 2, e sobraram 3.</p>
+
+<p>Subtração é ótima para quando queremos saber quanto resta depois de dar alguma coisa, ou quanto falta para completar algo. Pode ser brinquedos, chocolates, ou até estrelas que você viu no céu.</p>
+
+<p>Então, quando quiser descobrir quanto sobra depois de dar ou usar alguma coisa, use a subtração e veja como é fácil fazer essa conta!</p>   
+
+            
+
+         <p>Subtração é a operação de remover uma quantidade de outra. Vamos praticar!</p>
+
+    
+
+    
+
+    <h2>Exercícios de Subtração</h2>
+
+    
+
+    <p>Clique no círculo para escolher a opção desejada e depois clique em "Verificar" para confirmar se você acertou a resposta.</p>
+
+    <!-- Questão 1 -->
+
+    <div class="question-subtraction">
+
+        <p>1. Quanto é 9 - 4?</p>
+
+        <input type="radio" name="q1-subtraction" value="4">4<br>
+
+        <input type="radio" name="q1-subtraction" value="5">5<br>
+
+        <input type="radio" name="q1-subtraction" value="6">6<br>
+
+        <input type="radio" name="q1-subtraction" value="7">7<br>
+
+        <button onclick="checkSubtractionAnswer('q1-subtraction', '5')">Verificar</button>
+
+        <p id="feedback-q1-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 2 -->
+
+    <div class="question-subtraction">
+
+        <p>2. Quanto é 15 - 6?</p>
+
+        <input type="radio" name="q2-subtraction" value="7">7<br>
+
+        <input type="radio" name="q2-subtraction" value="8">8<br>
+
+        <input type="radio" name="q2-subtraction" value="9">9<br>
+
+        <input type="radio" name="q2-subtraction" value="10">10<br>
+
+        <button onclick="checkSubtractionAnswer('q2-subtraction', '9')">Verificar</button>
+
+        <p id="feedback-q2-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 3 -->
+
+    <div class="question-subtraction">
+
+        <p>3. Quanto é 20 - 8?</p>
+
+        <input type="radio" name="q3-subtraction" value="10">10<br>
+
+        <input type="radio" name="q3-subtraction" value="12">12<br>
+
+        <input type="radio" name="q3-subtraction" value="14">14<br>
+
+        <input type="radio" name="q3-subtraction" value="15">15<br>
+
+        <button onclick="checkSubtractionAnswer('q3-subtraction', '12')">Verificar</button>
+
+        <p id="feedback-q3-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 4 -->
+
+    <div class="question-subtraction">
+
+        <p>4. Quanto é 18 - 9?</p>
+
+        <input type="radio" name="q4-subtraction" value="7">7<br>
+
+        <input type="radio" name="q4-subtraction" value="8">8<br>
+
+        <input type="radio" name="q4-subtraction" value="9">9<br>
+
+        <input type="radio" name="q4-subtraction" value="10">10<br>
+
+        <button onclick="checkSubtractionAnswer('q4-subtraction', '9')">Verificar</button>
+
+        <p id="feedback-q4-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 5 -->
+
+    <div class="question-subtraction">
+
+        <p>5. Quanto é 12 - 3?</p>
+
+        <input type="radio" name="q5-subtraction" value="7">7<br>
+
+        <input type="radio" name="q5-subtraction" value="8">8<br>
+
+        <input type="radio" name="q5-subtraction" value="9">9<br>
+
+        <input type="radio" name="q5-subtraction" value="10">10<br>
+
+        <button onclick="checkSubtractionAnswer('q5-subtraction', '9')">Verificar</button>
+
+        <p id="feedback-q5-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 6 -->
+
+    <div class="question-subtraction">
+
+        <p>6. Quanto é 22 - 10?</p>
+
+        <input type="radio" name="q6-subtraction" value="10">10<br>
+
+        <input type="radio" name="q6-subtraction" value="11">11<br>
+
+        <input type="radio" name="q6-subtraction" value="12">12<br>
+
+        <input type="radio" name="q6-subtraction" value="13">13<br>
+
+        <button onclick="checkSubtractionAnswer('q6-subtraction', '12')">Verificar</button>
+
+        <p id="feedback-q6-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 7 -->
+
+    <div class="question-subtraction">
+
+        <p>7. Quanto é 30 - 15?</p>
+
+        <input type="radio" name="q7-subtraction" value="10">10<br>
+
+        <input type="radio" name="q7-subtraction" value="13">13<br>
+
+        <input type="radio" name="q7-subtraction" value="14">14<br>
+
+        <input type="radio" name="q7-subtraction" value="15">15<br>
+
+        <button onclick="checkSubtractionAnswer('q7-subtraction', '15')">Verificar</button>
+
+        <p id="feedback-q7-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 8 -->
+
+    <div class="question-subtraction">
+
+        <p>8. Quanto é 25 - 7?</p>
+
+        <input type="radio" name="q8-subtraction" value="16">16<br>
+
+        <input type="radio" name="q8-subtraction" value="17">17<br>
+
+        <input type="radio" name="q8-subtraction" value="18">18<br>
+
+        <input type="radio" name="q8-subtraction" value="19">19<br>
+
+        <button onclick="checkSubtractionAnswer('q8-subtraction', '18')">Verificar</button>
+
+        <p id="feedback-q8-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 9 -->
+
+    <div class="question-subtraction">
+
+        <p>9. Quanto é 40 - 12?</p>
+
+        <input type="radio" name="q9-subtraction" value="26">26<br>
+
+        <input type="radio" name="q9-subtraction" value="28">28<br>
+
+        <input type="radio" name="q9-subtraction" value="29">29<br>
+
+        <input type="radio" name="q9-subtraction" value="30">30<br>
+
+        <button onclick="checkSubtractionAnswer('q9-subtraction', '28')">Verificar</button>
+
+        <p id="feedback-q9-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    <!-- Questão 10 -->
+
+    <div class="question-subtraction">
+
+        <p>10. Quanto é 50 - 25?</p>
+
+        <input type="radio" name="q10-subtraction" value="23">23<br>
+
+        <input type="radio" name="q10-subtraction" value="24">24<br>
+
+        <input type="radio" name="q10-subtraction" value="25">25<br>
+
+        <input type="radio" name="q10-subtraction" value="26">26<br>
+
+        <button onclick="checkSubtractionAnswer('q10-subtraction', '25')">Verificar</button>
+
+        <p id="feedback-q10-subtraction" class="feedback-subtraction"></p>
+
+    </div>
+
+    
+
+    </div>                                                       
+
+                                                                     <div class="section" id="multiplication">
+
+            
+
+            <h2 style = "color:#E6A2B1">Multiplicação</h2>
+
+            
+
+            <img src = "https://sonicworldfangame.com/wp-content/uploads/2021/06/low_amy_render_1_test.png?w=584&h=584" alt = "Imagem da Rose" width = "309" height ="309">
+
+            
+
+            
+
+            
+
+            <p>A multiplicação é como uma super mágica que faz os números crescerem rápido! Quando você faz uma multiplicação, é como se estivesse somando várias vezes o mesmo número de uma só vez. Vamos ver como funciona?</p>
+
+<p>Imagine que você tem 3 caixas, e dentro de cada caixa tem 2 brinquedos. Se você quiser saber quantos brinquedos tem no total, em vez de somar 2 + 2 + 2, você pode usar a multiplicação!</p>
+
+<p>A multiplicação é uma forma rápida de dizer que você tem várias vezes a mesma quantidade. No nosso exemplo, temos 3 caixas, cada uma com 2 brinquedos, então podemos escrever assim:</p>
+
+<p>Este é o simbolo da multiplicação:</p>
+
+<p style="font-size:100px; text-align: center;color:#E6A2B1; text-shadow: 
+
+                4px 4px 0px black, /* Horizontal, Vertical, Borrão, Cor */
+
+                -4px 4px 0px black,
+
+                4px -4px 0px black,
+
+                -4px -4px 0px black; /* Contorno completo em 4 direções */" >x</p>
+
+<p><b>3 x 2 = 6</b></p>
+
+<p>Isso quer dizer que 3 vezes 2 é igual a 6. Ou seja, você tem 6 brinquedos no total!</p>
+
+<p>O sinal de <b>"x"</b> é usado para mostrar que estamos multiplicando. E o legal é que a multiplicação funciona com qualquer número! Pode ser brinquedos, docinhos ou até as páginas de um livro que você está lendo.</p>
+
+<p>Multiplicar é como fazer mágica com os números, fazendo eles crescerem rapidinho! Da próxima vez que você quiser saber o total de algo que se repete várias vezes, lembre-se da multiplicação e veja o quanto você pode somar de uma vez só!</p>
+
+            
+
+            
+
+            <p>A multiplicação é uma forma de adição repetida. Vamos praticar!</p>
+
+   
+
+    <h2>Exercícios de Multiplicação</h2>
+
+   
+
+    <p>Clique no círculo para escolher a opção desejada e depois clique em "Verificar" para confirmar se você acertou a resposta.</p>
+
+    <!-- Questão 1 -->
+
+    <div class="question-multiplication">
+
+        <p>1. Quanto é 3 x 4?</p>
+
+        <input type="radio" name="q1-multiplication" value="9">9<br>
+
+        <input type="radio" name="q1-multiplication" value="10">10<br>
+
+        <input type="radio" name="q1-multiplication" value="12">12<br>
+
+        <input type="radio" name="q1-multiplication" value="14">14<br>
+
+        <button onclick="checkMultiplicationAnswer('q1-multiplication', '12')">Verificar</button>
+
+        <p id="feedback-q1-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 2 -->
+
+    <div class="question-multiplication">
+
+        <p>2. Quanto é 5 x 6?</p>
+
+        <input type="radio" name="q2-multiplication" value="28">28<br>
+
+        <input type="radio" name="q2-multiplication" value="30">30<br>
+
+        <input type="radio" name="q2-multiplication" value="32">32<br>
+
+        <input type="radio" name="q2-multiplication" value="35">35<br>
+
+        <button onclick="checkMultiplicationAnswer('q2-multiplication', '30')">Verificar</button>
+
+        <p id="feedback-q2-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 3 -->
+
+    <div class="question-multiplication">
+
+        <p>3. Quanto é 7 x 8?</p>
+
+        <input type="radio" name="q3-multiplication" value="48">48<br>
+
+        <input type="radio" name="q3-multiplication" value="54">54<br>
+
+        <input type="radio" name="q3-multiplication" value="56">56<br>
+
+        <input type="radio" name="q3-multiplication" value="60">60<br>
+
+        <button onclick="checkMultiplicationAnswer('q3-multiplication', '56')">Verificar</button>
+
+        <p id="feedback-q3-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 4 -->
+
+    <div class="question-multiplication">
+
+        <p>4. Quanto é 9 x 9?</p>
+
+        <input type="radio" name="q4-multiplication" value="72">72<br>
+
+        <input type="radio" name="q4-multiplication" value="80">80<br>
+
+        <input type="radio" name="q4-multiplication" value="81">81<br>
+
+        <input type="radio" name="q4-multiplication" value="85">85<br>
+
+        <button onclick="checkMultiplicationAnswer('q4-multiplication', '81')">Verificar</button>
+
+        <p id="feedback-q4-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 5 -->
+
+    <div class="question-multiplication">
+
+        <p>5. Quanto é 4 x 6?</p>
+
+        <input type="radio" name="q5-multiplication" value="20">20<br>
+
+        <input type="radio" name="q5-multiplication" value="22">22<br>
+
+        <input type="radio" name="q5-multiplication" value="24">24<br>
+
+        <input type="radio" name="q5-multiplication" value="26">26<br>
+
+        <button onclick="checkMultiplicationAnswer('q5-multiplication', '24')">Verificar</button>
+
+        <p id="feedback-q5-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 6 -->
+
+    <div class="question-multiplication">
+
+        <p>6. Quanto é 8 x 7?</p>
+
+        <input type="radio" name="q6-multiplication" value="52">52<br>
+
+        <input type="radio" name="q6-multiplication" value="54">54<br>
+
+        <input type="radio" name="q6-multiplication" value="56">56<br>
+
+        <input type="radio" name="q6-multiplication" value="60">60<br>
+
+        <button onclick="checkMultiplicationAnswer('q6-multiplication', '56')">Verificar</button>
+
+        <p id="feedback-q6-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 7 -->
+
+    <div class="question-multiplication">
+
+        <p>7. Quanto é 12 x 3?</p>
+
+        <input type="radio" name="q7-multiplication" value="32">32<br>
+
+        <input type="radio" name="q7-multiplication" value="35">35<br>
+
+        <input type="radio" name="q7-multiplication" value="36">36<br>
+
+        <input type="radio" name="q7-multiplication" value="40">40<br>
+
+        <button onclick="checkMultiplicationAnswer('q7-multiplication', '36')">Verificar</button>
+
+        <p id="feedback-q7-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 8 -->
+
+    <div class="question-multiplication">
+
+        <p>8. Quanto é 11 x 4?</p>
+
+        <input type="radio" name="q8-multiplication" value="42">42<br>
+
+        <input type="radio" name="q8-multiplication" value="44">44<br>
+
+        <input type="radio" name="q8-multiplication" value="48">48<br>
+
+        <input type="radio" name="q8-multiplication" value="50">50<br>
+
+        <button onclick="checkMultiplicationAnswer('q8-multiplication', '44')">Verificar</button>
+
+        <p id="feedback-q8-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 9 -->
+
+    <div class="question-multiplication">
+
+        <p>9. Quanto é 10 x 10?</p>
+
+        <input type="radio" name="q9-multiplication" value="90">90<br>
+
+        <input type="radio" name="q9-multiplication" value="100">100<br>
+
+        <input type="radio" name="q9-multiplication" value="110">110<br>
+
+        <input type="radio" name="q9-multiplication" value="120">120<br>
+
+        <button onclick="checkMultiplicationAnswer('q9-multiplication', '100')">Verificar</button>
+
+        <p id="feedback-q9-multiplication" class="feedback-multiplication"></p>
+
+    </div>
+
+    <!-- Questão 10 -->
+
+    <div class="question-multiplication">
+
+        <p>10. Quanto é 6 x 5?</p>
+
+        <input type="radio" name="q10-multiplication" value="28">28<br>
+
+        <input type="radio" name="q10-multiplication" value="30">30<br>
+
+        <input type="radio" name="q10-multiplication" value="32">32<br>
+
+        <input type="radio" name="q10-multiplication" value="36">36<br>
+
+        <button onclick="checkMultiplicationAnswer('q10-multiplication', '30')">Verificar</button>
+
+        <p id="feedback-q10-multiplication" class="feedback-multiplication"></p>
+
+    
+
+    </div>
+
+    
+
+    </div>
+
+    <div class="section" id="division">
+
+            
+
+            <h2 style = "color:#D3D3D3">Divisão</h2>
+
+            
+
+            <img src = "https://sonicworldfangame.com/wp-content/uploads/2014/08/silver_the_hedgehog_legacy_render_by_nibroc_rock-db2ag3t.png?w=600" alt = "Imagem do Silver" width = "309" height ="309">
+
+            
+
+            
+
+            <p>A divisão é como repartir de forma justa! Quando você faz uma divisão, está pegando algo e dividindo em partes iguais para ver quanto cada pessoa ou coisa vai ganhar. Vamos entender como funciona?</p>
+
+<p>Imagine que você tem 12 balas e quer dividir igualmente entre 4 amigos, incluindo você. Quantas balas cada um vai receber? É aí que a divisão entra em cena! Você vai dividir as 12 balas em 4 partes iguais.</p>
+
+<p>A divisão vai te ajudar a descobrir isso:</p>
+
+<p>Este é o simbolo da divisão:</p>
+
+<p style="font-size:100px; text-align: center;color:#D3D3D3; text-shadow: 
+
+                4px 4px 0px black, /* Horizontal, Vertical, Borrão, Cor */
+
+                -4px 4px 0px black,
+
+                4px -4px 0px black,
+
+                -4px -4px 0px black; /* Contorno completo em 4 direções */" >÷</p>
+
+<p><b>12 ÷ 4 = 3</b></p>
+
+<p>Isso significa que, se você dividir 12 balas entre 4 pessoas, cada uma vai ficar com 3 balas!</p>
+
+<p>O sinal de <b>"÷"</b> é usado para mostrar que estamos dividindo algo. Com a divisão, você sempre consegue descobrir quanto cada um recebe quando reparte algo igualmente. Pode ser dividir brinquedos com seus amigos, fatias de bolo na festa, ou até mesmo as páginas de um livro para ler um pouquinho cada dia.</p>
+
+<p>Então, quando você quiser compartilhar algo de forma justa, use a divisão e veja como é fácil dividir e ainda deixar todo mundo feliz!</p>
+
+            
+
+            <p>Divisão é a operação de repartir uma quantidade em partes iguais. Vamos praticar!</p>
+
+    
+
+    <h2>Exercícios de Divisão</h2>
+
+    
+
+    
+
+    <p>Clique no círculo para escolher a opção desejada e depois clique em "Verificar" para confirmar se você acertou a resposta.</p>
+
+    <!-- Questão 1 -->
+
+    <div class="question-division">
+
+        <p>1. Quanto é 20 ÷ 4?</p>
+
+        <input type="radio" name="q1-division" value="3">3<br>
+
+        <input type="radio" name="q1-division" value="5">5<br>
+
+        <input type="radio" name="q1-division" value="6">6<br>
+
+        <input type="radio" name="q1-division" value="7">7<br>
+
+        <button onclick="checkDivisionAnswer('q1-division', '5')">Verificar</button>
+
+        <p id="feedback-q1-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 2 -->
+
+    <div class="question-division">
+
+        <p>2. Quanto é 30 ÷ 5?</p>
+
+        <input type="radio" name="q2-division" value="6">6<br>
+
+        <input type="radio" name="q2-division" value="5">5<br>
+
+        <input type="radio" name="q2-division" value="7">7<br>
+
+        <input type="radio" name="q2" value="4">4<br>
+
+        <button onclick="checkDivisionAnswer('q2-division', '6')">Verificar</button>
+
+        <p id="feedback-q2-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 3 -->
+
+    <div class="question-division">
+
+        <p>3. Quanto é 100 ÷ 10?</p>
+
+        <input type="radio" name="q3-division" value="8">8<br>
+
+        <input type="radio" name="q3-division" value="10">10<br>
+
+        <input type="radio" name="q3-division" value="12">12<br>
+
+        <input type="radio" name="q3-division" value="9">9<br>
+
+        <button onclick="checkDivisionAnswer('q3-division', '10')">Verificar</button>
+
+        <p id="feedback-q3-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 4 -->
+
+    <div class="question-division">
+
+        <p>4. Quanto é 81 ÷ 9?</p>
+
+        <input type="radio" name="q4-division" value="7">7<br>
+
+        <input type="radio" name="q4-division" value="9">9<br>
+
+        <input type="radio" name="q4-division" value="10">10<br>
+
+        <input type="radio" name="q4-division" value="8">8<br>
+
+        <button onclick="checkDivisionAnswer('q4-division', '9')">Verificar</button>
+
+        <p id="feedback-q4-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 5 -->
+
+    <div class="question-division">
+
+        <p>5. Quanto é 64 ÷ 8?</p>
+
+        <input type="radio" name="q5-division" value="6">6<br>
+
+        <input type="radio" name="q5-division" value="8">8<br>
+
+        <input type="radio" name="q5-division" value="7">7<br>
+
+        <input type="radio" name="q5-division" value="9">9<br>
+
+        <button onclick="checkDivisionAnswer('q5-division', '8')">Verificar</button>
+
+        <p id="feedback-q5-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 6 -->
+
+    <div class="question-division">
+
+        <p>6. Quanto é 56 ÷ 7?</p>
+
+        <input type="radio" name="q6-division" value="8">8<br>
+
+        <input type="radio" name="q6-division" value="7">7<br>
+
+        <input type="radio" name="q6-division" value="9">9<br>
+
+        <input type="radio" name="q6-division" value="10">10<br>
+
+        <button onclick="checkDivisionAnswer('q6-division', '8')">Verificar</button>
+
+        <p id="feedback-q6-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 7 -->
+
+    <div class="question-division">
+
+        <p>7. Quanto é 90 ÷ 10?</p>
+
+        <input type="radio" name="q7-division" value="10">10<br>
+
+        <input type="radio" name="q7-division" value="8">8<br>
+
+        <input type="radio" name="q7-division" value="9">9<br>
+
+        <input type="radio" name="q7-division" value="7">7<br>
+
+        <button onclick="checkDivisionAnswer('q7-division', '9')">Verificar</button>
+
+        <p id="feedback-q7-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 8 -->
+
+    <div class="question-division">
+
+        <p>8. Quanto é 72 ÷ 9?</p>
+
+        <input type="radio" name="q8-division" value="7">7<br>
+
+        <input type="radio" name="q8-division" value="8">8<br>
+
+        <input type="radio" name="q8-division" value="9">9<br>
+
+        <input type="radio" name="q8-division" value="6">6<br>
+
+        <button onclick="checkDivisionAnswer('q8-division', '8')">Verificar</button>
+
+        <p id="feedback-q8-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 9 -->
+
+    <div class="question-division">
+
+        <p>9. Quanto é 40 ÷ 5?</p>
+
+        <input type="radio" name="q9-division" value="10">10<br>
+
+        <input type="radio" name="q9-division" value="9">9<br>
+
+        <input type="radio" name="q9-division" value="8">8<br>
+
+        <input type="radio" name="q9-division" value="7">7<br>
+
+        <button onclick="checkDivisionAnswer('q9-division', '8')">Verificar</button>
+
+        <p id="feedback-q9-division" class="feedback-division"></p>
+
+    </div>
+
+    <!-- Questão 10 -->
+
+    <div class="question-division">
+
+        <p>10. Quanto é 50 ÷ 2?</p>
+
+        <input type="radio" name="q10-division" value="20">20<br>
+
+        <input type="radio" name="q10-division" value="25">25<br>
+
+        <input type="radio" name="q10-division" value="30">30<br>
+
+        <input type="radio" name="q10-division" value="40">40<br>
+
+        <button onclick="checkDivisionAnswer('q10-division', '25')">Verificar</button>
+
+        <p id="feedback-q10-division" class="feedback-division"></p>
+
+   
+
+    </div>
+
+    
+
+    </div>
+
+        
+
+</body>
+
+</ht>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
