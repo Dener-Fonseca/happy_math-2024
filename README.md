@@ -12,6 +12,9 @@ CSS: para estilização e layout da interface.
 
 JavaScript: para adicionar funcionalidades interativas e dinâmicas.
 
+Deploy: Realizado no site Versel.
+Link:https://happymath-2024.vercel.app/
+
 
 Objetivo
 
@@ -43,3 +46,6 @@ A página foi estilizada com uma temática inspirada no clássico jogo Sonic, ut
 Sobre o Projeto
 
 Este projeto foi desenvolvido como parte de uma atividade extensionista da faculdade Uninter, com o intuito de contribuir para a educação básica, facilitando o aprendizado da matemática de maneira acessível e eficaz.
+
+
+
